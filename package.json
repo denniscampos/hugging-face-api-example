@@ -1,0 +1,23 @@
+{
+  "name": "esbuild-node",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "pnpm run \"/dev:/\"",
+    "dev:tsc": "tsc --watch --preserveWatchOutput",
+    "dev:node": "node --enable-source-maps --watch dist/index.js"
+  },
+  "keywords": [],
+  "author": "Matt Pocock",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
